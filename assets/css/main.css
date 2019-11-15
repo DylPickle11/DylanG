@@ -4904,7 +4904,7 @@ input, select, textarea {
 				object-position: center;
 				display: block;
 				position: absolute;
-				top: 0;
+				top: 0.05em;
 				left: 0;
 				width: 100%;
 				height: 100%;
@@ -8602,6 +8602,20 @@ input, select, textarea {
 				box-shadow: none !important;
 			}
 
+
+/* Header */
+ .header{
+	 text-align: center;
+ }
+ .sub-header{
+	text-align: center;
+ }
+
+/* General */
+ a {
+   text-decoration: none;	 
+ }
+
 /* Technologies */
             .tech-header {
 				text-align: center;
@@ -8615,4 +8629,5 @@ input, select, textarea {
 				display: flex;
 				flex-direction: row;
 				flex-wrap: wrap;
-			}			
+			}
+
